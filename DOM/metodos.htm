@@ -7,8 +7,56 @@
 </head>
 <body>
     <p id="demo"></p>
+    <p>
+        Alterando Conteúdo
+        A maneira mais fácil de modificar o conteúdo do HTML é usando a propriedade innerHTML.
+    </p>
+        document.getElementById(id).innerHTML = new HTML();
+<p>
+    Alterando Atributos
+    Podemos alterar também atributos, como por exemplo:
+</p>
+        document.getElementById(id).attribute = new value;
+<p>
+    Alterando Estilos
+    Para alterar estilos de um elemento HTML usa-se:
+</p>
+        document.getElementById(id).style.property = new style;
+
+        Métodos para remover um elemento do DOM.
+<table>
+    <thead>
+        <tr>
+            <th>Método	Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>document.createElement(element)</td>	
+            <td>Criar um elemento HTML</td>
+        </tr>
+        <tr>
+            <td>document.removeChild(element)</td>
+            <td>Remover um elemento HTML</td>
+        </tr>
+        <tr>
+            <td>document.appendChild(element)</td>	
+            <td>Adicionar um elemento HTML</td>
+        </tr>
+        <tr>
+            <td>document.replaceChild(new, old)</td>	
+            <td>Substituir um elemento HTML</td>
+        </tr>
+        <tr>
+            <td>document.write(text)</td>	<td>Escreva no fluxo de saída HTML</td>
+        </tr>
+    </tbody>
+</table>
+
     <script>
         document.getElementById("demo").innerHTML = "Lucas Guimarães"
+        
+
     </script>
 </body>
 </html>
