@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usando o DOM</title>
+    <style>
+        table, td, th {
+            border: solid 2px black;
+            padding: 5px;
+        }
+        th {background-color:#999;}
+        thead{
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
     <p id="demo"></p>
@@ -27,7 +38,7 @@
 <table>
     <thead>
         <tr>
-            <th>Método	Descrição</th>
+            <th colspan="2">Método	Descrição</th>
         </tr>
     </thead>
     <tbody>
